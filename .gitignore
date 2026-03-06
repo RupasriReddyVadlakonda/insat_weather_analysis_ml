@@ -1,0 +1,21 @@
+# Ignore satellite datasets
+olr_data/
+rainfall_data/
+data/
+
+# Ignore large CSV outputs
+*.csv
+
+# Ignore HDF5 files
+*.h5
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
